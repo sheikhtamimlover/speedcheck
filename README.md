@@ -1,15 +1,15 @@
 <div align="center">
 
 <!-- Animated banner -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=600&lines=⚡+speedcheck;Internet+Speed+%26+Network+Diagnostics;Download+%7C+Upload+%7C+Ping+%7C+IP+%7C+Location" alt="speedcheck animated title" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=600&lines=⚡+speedcheck-js;Internet+Speed+%26+Network+Diagnostics;Download+%7C+Upload+%7C+Ping+%7C+IP+%7C+Location" alt="speedcheck-js animated title" />
 
 <br/>
 
-[![npm version](https://img.shields.io/npm/v/speedcheck?color=00d9ff&style=flat-square&logo=npm)](https://www.npmjs.com/package/speedcheck)
+[![npm version](https://img.shields.io/npm/v/speedcheck-js?color=00d9ff&style=flat-square&logo=npm)](https://www.npmjs.com/package/speedcheck-js)
 [![license](https://img.shields.io/github/license/sheikhtamimlover/speedcheck?color=00d9ff&style=flat-square)](LICENSE)
-[![node](https://img.shields.io/node/v/speedcheck?color=00d9ff&style=flat-square&logo=node.js)](https://nodejs.org)
+[![node](https://img.shields.io/node/v/speedcheck-js?color=00d9ff&style=flat-square&logo=node.js)](https://nodejs.org)
 [![repo size](https://img.shields.io/github/repo-size/sheikhtamimlover/speedcheck?color=00d9ff&style=flat-square)](https://github.com/sheikhtamimlover/speedcheck)
-[![downloads](https://img.shields.io/npm/dm/speedcheck?color=00d9ff&style=flat-square)](https://www.npmjs.com/package/speedcheck)
+[![downloads](https://img.shields.io/npm/dm/speedcheck-js?color=00d9ff&style=flat-square)](https://www.npmjs.com/package/speedcheck-js)
 [![stars](https://img.shields.io/github/stars/sheikhtamimlover/speedcheck?color=00d9ff&style=flat-square)](https://github.com/sheikhtamimlover/speedcheck/stargazers)
 [![issues](https://img.shields.io/github/issues/sheikhtamimlover/speedcheck?color=00d9ff&style=flat-square)](https://github.com/sheikhtamimlover/speedcheck/issues)
 [![author](https://img.shields.io/badge/author-Sheikh%20Tamim-00d9ff?style=flat-square)](https://github.com/sheikhtamimlover)
@@ -51,13 +51,13 @@
 
 ```bash
 # npm
-npm install speedcheck
+npm install speedcheck-js
 
 # yarn
-yarn add speedcheck
+yarn add speedcheck-js
 
 # pnpm
-pnpm add speedcheck
+pnpm add speedcheck-js
 ```
 
 > Requires **Node.js ≥ 14**
@@ -69,7 +69,7 @@ pnpm add speedcheck
 ### Run as CLI
 
 ```bash
-node node_modules/speedcheck/src/index.js
+node node_modules/speedcheck-js/src/index.js
 ```
 
 Or add to your `package.json` scripts and run `npm start`.
@@ -77,7 +77,7 @@ Or add to your `package.json` scripts and run `npm start`.
 ### Programmatic — full test
 
 ```js
-const { SpeedCheck, formatResults } = require('speedcheck');
+const { SpeedCheck, formatResults } = require('speedcheck-js');
 
 (async () => {
   const checker = new SpeedCheck();
@@ -129,7 +129,7 @@ const {
   measureUpload,   // Upload speed measurement
   getNetworkZone,  // Network zone classification
   formatResults,   // Pretty-print a result object
-} = require('speedcheck');
+} = require('speedcheck-js');
 ```
 
 #### `getIPInfo()`

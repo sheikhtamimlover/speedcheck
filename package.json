@@ -1,5 +1,5 @@
 {
-  "name": "speedcheck",
+  "name": "speedcheck-js",
   "version": "1.0.0",
   "description": "A modern, full-featured internet speed test & network diagnostics library — download, upload, ping, IP info, location, ISP, network zone and more.",
   "main": "src/index.js",
