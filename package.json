@@ -1,0 +1,45 @@
+{
+  "name": "speedcheck",
+  "version": "1.0.0",
+  "description": "A modern, full-featured internet speed test & network diagnostics library — download, upload, ping, IP info, location, ISP, network zone and more.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "speed",
+    "speedtest",
+    "internet",
+    "network",
+    "download",
+    "upload",
+    "ping",
+    "ip",
+    "location",
+    "isp",
+    "latency",
+    "bandwidth",
+    "diagnostics"
+  ],
+  "author": "Sheikh Tamim <https://github.com/sheikhtamimlover>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sheikhtamimlover/speedcheck.git"
+  },
+  "homepage": "https://github.com/sheikhtamimlover/speedcheck#readme",
+  "bugs": {
+    "url": "https://github.com/sheikhtamimlover/speedcheck/issues"
+  },
+  "dependencies": {
+    "axios": "1.6.8",
+    "chalk": "4.1.2",
+    "cli-progress": "3.12.0",
+    "ora": "5.4.1",
+    "ws": "8.16.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
